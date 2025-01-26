@@ -33,5 +33,7 @@ public class Test {
         float fo = 10.25f;
         int o = (int) f;  // Explicit Casting Narrowing
         System.out.println(w + " "+ f +" "+o);
+
+        Integer Caching ->
     }
 }
