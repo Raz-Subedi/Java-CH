@@ -34,6 +34,6 @@ public class Test {
         int o = (int) f;  // Explicit Casting Narrowing
         System.out.println(w + " "+ f +" "+o);
 
-        Integer Caching ->
+//        Integer Caching ->
     }
 }
