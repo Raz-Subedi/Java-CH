@@ -4,8 +4,10 @@ public class Test {
     public static void main(String[] args) {
 
 
-        String n = "Rajkumar subedi";
+        String n = "Rajkumar Subedi";
         String name = new String("Rajkumar");
+
+        System.out.println(n.equals(name));
 
 
         System.out.println(name.substring(4));

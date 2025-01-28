@@ -17,7 +17,7 @@ public class ArraysClass {
 
         index = Arrays.binarySearch(numbers, 7); // Searches for 4 (not found)
         System.out.println("Index of 4: " + index); // -3 (insertion point)
-
+        
        /*
        Comparing Arrays
        equals(array1, array2): Checks if two arrays are equal (same length and elements).

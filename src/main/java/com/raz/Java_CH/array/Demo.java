@@ -16,10 +16,15 @@ public class Demo {
         // print array element at index 0
         System.out.println("After change myArray[0]: " + myArray[0]);
 
+        long[] l = {1,2,3,4,5};
 
-        for(int m : myArray) {
-            System.out.println(m);
+        for (long i : l){
+            System.out.println(i);
         }
+
+//        for(int m : myArray) {
+//            System.out.println(m);
+//        }
 
         System.out.println(Arrays.toString(myArray));
     }
