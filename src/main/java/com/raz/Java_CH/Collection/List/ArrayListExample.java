@@ -13,10 +13,10 @@ public class ArrayListExample {
         p.add("Subedi");
         p.add("Rajkumar");
 
-        List<String> q = new ArrayList<>(Arrays.asList("I","Love","Java"));
+        List<String> q = new ArrayList<>(Arrays.asList("I", "Love", "Java"));
         //  AsList() method in Java is used to return a fixed-size list backed by the given array.
 
-        List<String>  r = new ArrayList<>(List.of("Coding","is","Fun"));
+        List<String> r = new ArrayList<>(List.of("Coding", "is", "Fun"));
         // list.of It is used to return immutable lists containing the specified elements
 
         System.out.println(p);
@@ -24,10 +24,9 @@ public class ArrayListExample {
         System.out.println(r);
 
 
+        ArrayList<String> str = new ArrayList<String>();
 
-        ArrayList<String> str= new ArrayList<String>();
-
-        System.out.println("Size at the beginning "+str.size());
+        System.out.println("Size at the beginning " + str.size());
 
         str.add("Hello");
         str.add("Hi");
@@ -36,13 +35,21 @@ public class ArrayListExample {
 
         System.out.println(str);
 
-        System.out.println("Size after addition "+str.size());
+        System.out.println("Size after addition " + str.size());
 
         str.remove(0);
         str.remove(0);
 
         System.out.println(str);
 
-        System.out.println("Size after removal "+str.size());
+        System.out.println("Size after removal " + str.size());
+
+
+        List lii = new ArrayList<>();
+        lii.add("raz");
+        lii.add(1);
+        lii.add(10.2);
+        lii.add(0.04f);
+        System.out.println(lii);
     }
 }

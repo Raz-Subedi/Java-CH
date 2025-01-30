@@ -6,7 +6,7 @@ public class StackExample {
     public static void main(String[] args) {
 
 
-        // It extends the vector class and it is its subclass.
+        // It extends the vector class, and it is its subclass.
         // LIFO
 
         Stack<Integer> s =  new Stack<>();

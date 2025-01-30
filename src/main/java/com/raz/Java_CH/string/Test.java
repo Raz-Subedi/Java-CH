@@ -10,6 +10,15 @@ public class Test {
         System.out.println(n.equals(name));
 
 
+        String s = """ 
+       Raj
+       cccjkbd     asjd
+           jkaskdj
+         """;
+
+        System.out.println(s);
+
+
         System.out.println(name.substring(4));
         System.out.println(name.substring(2,8));
         System.out.println("Hello" +name);
