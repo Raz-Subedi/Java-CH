@@ -1,5 +1,7 @@
 package com.raz.Java_CH.array;
 
+import java.util.Arrays;
+
 class Student {
     Student(int id, String name) {
         System.out.println("Student ID is "+ id + " and name is "+ name );
@@ -8,6 +10,11 @@ class Student {
 
 public class Test {
     public static void main (String[] args) {
+
+
+//        String s[] = new String[4];
+//        System.out.println(Arrays.toString(s));
+
         // declaring an array of Object
         Student obj[] = new Student[3];
 
