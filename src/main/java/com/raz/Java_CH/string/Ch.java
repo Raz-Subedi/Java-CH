@@ -6,5 +6,8 @@ public class Ch {
 
         String str = "\"Raz\"";
         System.out.println(str);
+
+        String s = "\\Raz";
+        System.out.println(s);
     }
 }
