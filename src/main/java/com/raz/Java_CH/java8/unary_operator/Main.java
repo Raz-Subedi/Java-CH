@@ -1,4 +1,4 @@
-package com.raz.Java_CH.unary_operator;
+package com.raz.Java_CH.java8.unary_operator;
 
 import java.util.function.BiFunction;
 import java.util.function.BinaryOperator;

@@ -37,5 +37,19 @@ public class StreamMethods {
         //Maximum
         Integer max = numbers.stream().max((x, y) -> x.compareTo(y)).get();
         System.out.println("Maximum " +max);
+
+
+        List<Integer> number = List.of(1, 2, 3, 4, 5);
+
+        number.stream()
+                .peek(n -> System.out.println("Before filtering: " + n))
+                .filter(n -> n % 2 == 0)
+                .peek(n -> System.out.println("After filtering: " + n))
+                .map(n -> n * 10)
+                .peek(n -> System.out.println("After mapping: " + n))
+                .forEach(System.out::println);
+
+        Integer integer1 = number.stream().reduce(Integer::sum).get();
+        System.out.println(integer1);
     }
 }
