@@ -1,7 +1,6 @@
 package com.raz.Java_CH.exception;
 
-import com.raz.Java_CH.array.ArrayIndexOutOfBound;
-import com.raz.Java_CH.equals.Student;
+
 
 public class Test1 {
     public static void main(String[] args) {
@@ -19,9 +18,9 @@ public class Test1 {
 
     public static int divide(int a, int b){
        try {
-           Student student = null;
-           student.setScore(56);
-           System.out.println(student.getScore());
+        // Student student = null;
+//           student.setScore(56);
+//           System.out.println(student.getScore());
 
            return a / b;
        }catch (ArithmeticException | NullPointerException e){   // should be disjoint exception not parent and subclass exception
